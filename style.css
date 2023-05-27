@@ -1,0 +1,132 @@
+
+/*
+#170075
+#6C4AF7
+#3100F5
+#342375
+#2700C1
+*/
+.teste{
+    color:#170075 ;
+    color: #6C4AF7;
+    color: #3100F5;
+    color:#342375 ;
+    color: #2700C1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    background: #26107c;;
+    color: rgb(44, 221, 44);
+}
+
+
+
+#container{
+    margin: auto;
+    border: 1px solid red;
+    width: 98%;
+    
+    
+}
+
+
+
+
+
+/* Apresentação*/
+
+#apresentacao{
+    border: 1px solid red;
+    float: left;
+    display: block;
+    width: 47%;
+    height: 350px;
+    padding: 2px;
+
+}
+
+
+
+
+
+
+
+
+/*Fotos*/
+
+#fotos{
+    border: 1px solid red; 
+    float: right;
+    display: block;
+    width: 47%;
+    height: 350px;
+    padding: 2px;
+}
+
+
+
+
+
+
+
+/*Menus*/
+
+#menus{
+    border: 1px solid red; 
+    float: left;
+    display: block;
+    width: 20%;
+    height: 350px;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+/*resumos*/
+
+
+#resumo{
+    border: 1px solid red;  
+    float: left;
+    display: block;
+    width: 65%;
+    height: 350px;
+    padding: 2px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+/*redes sociasi*/
+
+#redes-sociais{
+    border: 1px solid red;  
+    float: right;
+    display: block;
+    width: 10%;
+    height: 350px;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+
+
+
+/*Footer*/
+
+#footer{
+    clear: both;
+}
