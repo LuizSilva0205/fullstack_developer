@@ -12,6 +12,7 @@
     color: #3100F5;
     color:#342375 ;
     color: #2700C1;
+    color:#2cdd2c;
 }
 
 *{
@@ -23,14 +24,14 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1em;
     background: #26107c;;
-    color: rgb(44, 221, 44);
+    color: #2cdd2c;
 }
 
 
 
 #container{
     margin: auto;
-    border: 1px solid red;
+
     width: 98%;
     
     
@@ -43,7 +44,7 @@ body{
 /* Apresentação*/
 
 #apresentacao{
-    border: 1px solid red;
+ 
     float: left;
     display: block;
     width: 47%;
@@ -53,21 +54,73 @@ body{
 }
 
 
+#nome{
+    font-size: 4.4em;
+    padding:50px 50px 5px 50px;
+}
 
 
+#fullstack{
+    font-size: 2.4em;
+    padding:0px 50px 5px 50px;
+}
 
 
+#me-apresentacao{
+    font-size: 1.4em;
+    text-indent: 20px;
+    padding:0px 50px 5px 50px;
+    text-align: justify;
+}
 
 
 /*Fotos*/
 
 #fotos{
-    border: 1px solid red; 
+    padding-top: 30px;
     float: right;
     display: block;
     width: 47%;
     height: 350px;
     padding: 2px;
+
+}
+
+
+.fotos{
+   margin-top: 50px;
+    border-radius: 50px;
+    position: relative;
+   border: 2px solid black;
+    
+}
+
+
+
+#foto1{
+    left: 70px;
+    z-index: 1;
+
+    
+}
+
+#foto1:hover{
+    z-index: 5;
+    box-shadow: 10px 10px 10px black;
+}
+
+
+
+
+
+#foto2{
+    z-index: 2;
+    right: 120px;
+}
+
+#foto2:hover{
+    box-shadow: 10px 10px 10px black;
+    z-index: 5;
 }
 
 
@@ -76,10 +129,36 @@ body{
 
 
 
+
+#foto3{
+    right: 280px;
+    z-index: 3;
+}
+
+#foto3:hover{
+    box-shadow: 10px 10px 10px black;
+    z-index: 5;
+}
+
+#foto4{
+    z-index: 4;
+    width: 240px;
+    height: 315px;
+    left: 350px;
+    bottom: 370px;
+}
+
+#foto4:hover{
+    z-index: 5;
+    box-shadow: 10px 10px 10px black;
+}
+
+
+
+
 /*Menus*/
 
 #menus{
-    border: 1px solid red; 
     float: left;
     display: block;
     width: 20%;
@@ -89,17 +168,35 @@ body{
 }
 
 
+#lista_skills{
+    list-style: none;
+    
+}
 
 
+li{
+    font-size: 1.6em;
+    margin: 10px;
+    
 
+}
+li>a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    text-align: center;
+}
 
-
+li>a:hover{
+    background: #170075;
+    color: #2cdd2c;
+}
 
 /*resumos*/
 
 
 #resumo{
-    border: 1px solid red;  
+ 
     float: left;
     display: block;
     width: 65%;
@@ -110,10 +207,21 @@ body{
 }
 
 
+ #texto-resumo{
+    padding-top: 80px;
+    color: #2cdd2c;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
 /*redes sociasi*/
 
 #redes-sociais{
-    border: 1px solid red;  
+
     float: right;
     display: block;
     width: 10%;
@@ -123,10 +231,28 @@ body{
 }
 
 
+div #redes-sociais>ul>li>a>img{
+    width: 60px;
+    height: 60px;
+}
+
+
+div #redes-sociais>ul>li>a:hover{
+    border: 3px solid black;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px black;
+}
+
+div #redes-sociais>ul{
+    list-style: none;
+}
 
 
 /*Footer*/
 
 #footer{
+    margin: 80px;
+    padding-top: 80px;
+    text-align: center;
     clear: both;
 }
